@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import ReactDOM from 'react-dom';
-<% if (SPA) { %>
+import ReactDOM from 'react-dom';<% if (SPA) { %>
 import { withRouter } from 'react-router';
-<% }
+<% } %>
 <% if (i18n) { %>
 import i18n from 'i18n';
 <% } %>

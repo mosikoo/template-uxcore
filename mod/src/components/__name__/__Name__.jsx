@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import { Component } from 'react';
 <% if (i18n) { %>
 import i18n from 'i18n';
 <% } %>
