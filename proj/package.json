@@ -18,13 +18,5 @@
     "i18n-helper": "~1.1.1",
     "reflux-promise": "^1.0.4",
     "uxcore": "~0.4.2"
-  },
-  "devDependencies": {
-    "eslint": "^3.18.0",
-    "babel-eslint": "^7.1.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-react": "^6.10.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0"
   }
 }
