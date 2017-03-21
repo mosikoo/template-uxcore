@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 <% if (i18n) { %>
 import i18n from 'i18n';
 <% } %>

@@ -1,3 +1,4 @@
+import React from 'react';
 <% if (SPA) { %>
 import { withRouter } from 'react-router';
 <% } else { %>
