@@ -1,9 +1,8 @@
-import React from 'react';
-<% if (SPA) { %>
+import React, { Component } from 'react';
+import classnames from 'classnames';
+import ReactDOM from 'react-dom';<% if (SPA) { %>
 import { withRouter } from 'react-router';
-<% } else { %>
-import ReactDOM from 'react-dom';
-<% } %>
+<% }
 <% if (i18n) { %>
 import i18n from 'i18n';
 <% } %>
@@ -30,7 +29,6 @@ class Page<%- Name %> extends Component {
 }
 
 <% } else { %>
-import { Component } from 'react';
 import './Page<%- Name %>.less';
 
 class Page<%- Name %> extends Component {
