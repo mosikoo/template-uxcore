@@ -4,8 +4,7 @@ import ReactDOM from 'react-dom';<% if (SPA) { %>
 import { withRouter } from 'react-router';
 <% } %><% if (i18n) { %>
 import i18n from 'i18n';
-<% } %>
-<% if (store) { %>
+<% } %><% if (store) { %>
 import { Component } from 'reflux';
 import Actions from './actions';
 import Store from './store';
